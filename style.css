@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body {
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    padding-block: 20px;
+    /* justify-content: center; */
+    /* padding-block: 20px; */
+}
+.container {
+    max-width: 375px;
+    margin: auto;
+    background-color: hsl(225, 100%, 98%);
+    /* border-top-right-radius: 20px;
+    border-top-left-radius: 20px; */
+    border-radius: 20px;
+    height: auto;
+
+}
+.container .image img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+}
+.container .content {
+    text-align: center;
+    padding: 0px 20px 20px;
+}
+
+.container .content h1 {
+    opacity: 80%;
+    padding-block: 20px;
+    font-size: 1.6rem;
+}
+.container .content p {
+    opacity: 60%;
+    line-height: 1.5;
+}
+.container .content .buy---music {
+    display: flex;
+    align-items: center;
+    background-color: hsla(225, 100%, 94%, 0.322);
+    border-radius: 10px;
+    padding: 15px;
+    margin-block: 10px;
+}
+.container .content .buy---music .image {
+    margin-right: 25px;
+}
+.container .content .buy---music .center {
+    margin-right: 50px;
+    font-size: 25px;
+}
+.container .content .buy---music .center h3 {
+    opacity: 90%;
+}
+.container .content .buy---music a {
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+.container .content .btn {
+    padding: 15px;
+    border-radius: 10px;
+    color: #ddd;
+    background-color: hsl(245, 75%, 52%);
+    margin-block: 10px;
+}
+.container .content .btn a {
+    color: #ddd;
+    text-decoration: none;
+
+}
+.container .content > a {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+/* Footer */
+footer {
+    /* background-color: antiquewhite; */
+    position: absolute;
+    bottom: 0;
+}
+footer .attribution { 
+    font-size: 11px; text-align: center;
+}
+footer .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
